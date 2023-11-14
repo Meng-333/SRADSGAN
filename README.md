@@ -106,22 +106,22 @@ python sr_mfe.py -p val -c config/gdp_GF2_x3.json           # infer
 
 ![](results_img/x2_storagetanks_93.png)
 
-![](D:\桌面\img\sradsgan\5.6\5.1\x2_x9_3k\x3_agricultural_16.png)
+![](results_img/x3_agricultural_16.png)
 
-![](D:\桌面\img\sradsgan\5.6\5.1\x2_x9_3k\x4_buildings_92.png)
+![](results_img/x4_buildings_92.png)
 
-![](D:\桌面\img\sradsgan\5.6\5.1\x2_x9_3k\x8_habor_9.png)
+![](results_img/x8_habor_9.png)
 
-![](D:\桌面\img\sradsgan\5.6\5.1\x2_x9_3k\x9_airplane_72.png)
+![](results_img/x9_airplane_72.png)
 
 Fig. 5. Visualization of different methods on UC Merced dataset. From (a) to (e) are x2, x3, x4, x8 and x9 SR results, respectively.
 
 ### 2. Super-Resolution on Other Multispectral Images
 
-![](D:\桌面\img\sradsgan\5.6\5.3\GF2_5.3.png)
+![](results_img/GF2_5.3.png)
 
 Fig. 8. 3-time super-resolution results of different methods on GaoFen-2 remote sensing image.
 
-![](D:\桌面\img\sradsgan\5.6\5.3\Sentinel2_5.4.png)
+![](results_img/Sentinel2_5.4.png)
 
 Fig. 9. 9-time super-resolution results on Sentinel-2 remote sensing image without downsampling.
