@@ -104,9 +104,9 @@ python sr_mfe.py -p val -c config/gdp_GF2_x3.json           # infer
 
 
 
-./x2_storagetanks_93.png)
+![](D:\桌面\img\sradsgan\5.6\5.1\x2_x9_3k\x2_storagetanks_93.png)
 
-./x3_agricultural_16.png)
+![](D:\桌面\img\sradsgan\5.6\5.1\x2_x9_3k\x3_agricultural_16.png)
 
 ![](D:\桌面\img\sradsgan\5.6\5.1\x2_x9_3k\x4_buildings_92.png)
 
