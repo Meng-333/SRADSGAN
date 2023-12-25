@@ -1,0 +1,12 @@
+python==3.7.13
+pytorch==1.8.1
+cuda==11.1
+tensorflow-gpu==1.15.0
+pillow
+scikit-image==0.15
+sewar
+mpmath
+opencv-python
+protobuf==3.19.0
+tqdm
+thop
