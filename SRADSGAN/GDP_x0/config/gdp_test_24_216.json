@@ -1,0 +1,97 @@
+{
+    "name": "gdp_test_24_216",
+    "phase": "val",  // train or val
+    "gpu_ids": [
+        0
+    ],
+    "path": {
+        "log": "logs",
+        "tb_logger": "tb_logger",
+        "results": "results",
+        "checkpoint": "checkpoint",
+//        "resume_state": null
+         "resume_state": "experiments/gdp_train_24_216_epoch26/checkpoint/I225368_E26"
+    },
+    "datasets": {
+        "train": {
+            "name": "Train",
+            "mode": "LRHR",
+            "dataroot": "dataset/Train_24_216",
+            "datatype": "img", //lmdb or img, path of img files
+            "l_resolution": 24,
+            "r_resolution": 216,
+            "batch_size": 4,
+            "num_workers": 8,
+            "use_shuffle": true,
+            "data_len": -1,
+            "img_mask": "no"
+        },
+        "val": {
+            "name": "Test",
+            "mode": "LRHR",
+            "dataroot": "dataset/UCMerced_24_216",
+            "datatype": "img", //lmdb or img, path of img files
+            "l_resolution": 24,
+            "r_resolution": 216,
+            "data_len": 2048,
+            "img_mask": "no"
+        }
+    },
+    "model": {
+        "which_model_G": "gdp", //ddpm, gdp
+        "finetune_norm": false,
+        "unet": {
+            "in_channel": 6,
+            "out_channel": 3,
+            "inner_channel": 64,
+            "channel_multiplier": [
+                1,
+                2,
+                4,
+                8
+            ],
+            "attn_res": [
+                16
+            ],
+            "res_blocks": 2,
+            "dropout": 0.0
+        },
+        "beta_schedule": { // use munual beta_schedule for acceleration
+            "train": {
+                "schedule": "linear",
+                "n_timestep": 1000,
+                "linear_start": 1e-4,
+                "linear_end": 2e-2
+            },
+            "val": {
+                "schedule": "linear",
+                "n_timestep": 1000,
+                "linear_start": 1e-4,
+                "linear_end": 2e-2
+            }
+        },
+        "diffusion": {
+            "image_size": 216,
+            "channels": 3, //sample channel
+            "conditional": true   // conditional generation or unconditional generation(super_resolution)
+        }
+    },
+    "train": {
+        "n_iter": 866800,
+        "val_freq": 8668,
+        "save_checkpoint_freq": 8668,
+        "print_freq": 2167,
+        "optimizer": {
+            "type": "adam",
+            "lr": 2e-4
+        },
+        "ema_scheduler": {  // not used now
+            "step_start_ema": 5000,
+            "update_ema_every": 1,
+            "ema_decay": 0.9999
+        }
+    },
+    "wandb": {
+        "project": "sample_gdp_test_24_216"
+    }
+}
