@@ -1,4 +1,9 @@
 # **SRADSGAN**
+**Single Remote Sensing Image Super-Resolution via a Generative Adversarial Network With Stratified Dense Sampling and Chain Training**
+
+  - Fanen Meng, Sensen Wu, Yadong Li, Zhe Zhang, Tian Feng, Renyi Liu, Zhenhong Du
+  - *IEEE Transactions on Geoscience and Remote Sensing*, vol. 62, pp. 1-22
+  - https://ieeexplore.ieee.org/document/10375518
 
 ## Folder Structure
 
@@ -125,3 +130,9 @@ Fig. 8. 3-time super-resolution results of different methods on GaoFen-2 remote 
 ![](results_img/Sentinel2_5.4.png)
 
 Fig. 9. 9-time super-resolution results on Sentinel-2 remote sensing image without downsampling.
+
+## Citation
+
+If our code helps your research or work, please consider citing our paper. 
+
+F. Meng et al., "Single Remote Sensing Image Super-Resolution via a Generative Adversarial Network With Stratified Dense Sampling and Chain Training," in IEEE Transactions on Geoscience and Remote Sensing, vol. 62, pp. 1-22, 2024, Art no. 5400822, doi: 10.1109/TGRS.2023.3344112.
