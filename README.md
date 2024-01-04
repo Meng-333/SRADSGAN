@@ -135,6 +135,6 @@ Fig. 9. 9-time super-resolution results on Sentinel-2 remote sensing image witho
 
 If our code helps your research or work, please consider citing our paper. 
 
-```bash
+```
 F. Meng et al., "Single Remote Sensing Image Super-Resolution via a Generative Adversarial Network With Stratified Dense Sampling and Chain Training," in IEEE Transactions on Geoscience and Remote Sensing, vol. 62, pp. 1-22, 2024, Art no. 5400822, doi: 10.1109/TGRS.2023.3344112.
 ```
