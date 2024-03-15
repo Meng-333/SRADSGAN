@@ -4,6 +4,7 @@
   - Fanen Meng, Sensen Wu, Yadong Li, Zhe Zhang, Tian Feng, Renyi Liu, Zhenhong Du
   - *IEEE Transactions on Geoscience and Remote Sensing*, vol. 62, pp. 1-22
   - https://ieeexplore.ieee.org/document/10375518
+  - checkpoint: https://drive.google.com/drive/folders/1_ncUya30a-AwaDXkys56AMj2m8eSJjfH?usp=sharing
 
 ## Folder Structure
 
