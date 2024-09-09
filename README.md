@@ -6,6 +6,10 @@
   - https://ieeexplore.ieee.org/document/10375518
   - checkpoint:  https://pan.baidu.com/s/1eUANo6besXp5HctEqqRVOA?pwd=0115 or https://drive.google.com/drive/folders/1_ncUya30a-AwaDXkys56AMj2m8eSJjfH?usp=sharing
 
+![](results_img/SRADSGAN.png)
+Fig. 1. Structure of our proposed SRADSGAN. (a) Generator model. (b) Discriminator model.
+
+
 ## Folder Structure
 
 Our folder structure is as follows:
