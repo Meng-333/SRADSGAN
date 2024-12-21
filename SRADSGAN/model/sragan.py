@@ -30,7 +30,7 @@ from data import *
 # from loss import GANLoss
 # from architecture import RRDBNet, Discriminator_VGG_256, VGGFeatureExtractor
 from model.base_networks import *
-from data.data import get_training_datasets, get_test_datasets, get_RGB_trainDataset, get_RGB_testDataset
+from data.data import get_RGB_trainDataset, get_RGB_testDataset
 
 # def weights_init_normal(m):
 #     classname = m.__class__.__name__
