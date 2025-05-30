@@ -718,7 +718,7 @@ class SRADSGAN(object):
             # G_model_path = '/g12238036mfe/mfe/ESRRDAN/Result/model/sradsgan_x2_generator_param.pkl'
             # D_model_path = '/g12238036mfe/mfe/ESRRDAN/Result/model/sradsgan_x2_discriminator_param.pkl'
             # self.load_epoch_network(load_path=G_model_path, network=self.generator, strict=False)
-            # self.load_epoch_network(load_path=D_model_path, network=self.discriminator, strict=True)
+            # self.load_epoch_network(load_path=D_model_path, network=self.discriminator, strict=False)
 
         # Optimizers
         optimizer_G = torch.optim.Adam(self.generator.parameters(), lr=self.lr, betas=(self.b1, self.b2))
